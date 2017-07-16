@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - TestEEApp@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="testeeapp">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="courses_system"/>
+    <schema id="3" name="courses_test"/>
+    <schema id="4" name="employees"/>
+    <schema id="5" name="information_schema"/>
+    <schema id="6" name="inheritance_table"/>
+    <schema id="7" name="mysql"/>
+    <schema id="8" name="payments_2"/>
+    <schema id="9" name="performance_schema"/>
+    <schema id="10" name="persondb"/>
+    <schema id="11" name="profito"/>
+    <schema id="12" name="sakila"/>
+    <schema id="13" name="student_test"/>
+    <schema id="14" name="sys"/>
+    <schema id="15" name="test"/>
+    <schema id="16" name="world"/>
+    <table id="17" parent="1" name="message"/>
+    <column id="18" parent="17" name="id">
+      <mandatory>1</mandatory>
+      <data-type>varchar(5)|0</data-type>
+    </column>
+    <column id="19" parent="17" name="message">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="20" parent="17" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
